@@ -1,0 +1,14 @@
+{
+  "name": "@rblock919/eslint-config",
+  "version": "1.0.0",
+  "description": "Ryan Block's Shared EsLint Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Block",
+  "license": "ISC",
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
