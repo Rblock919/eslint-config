@@ -1,19 +1,28 @@
 {
   "name": "@rblock919/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Ryan Block's Shared EsLint Configuration",
   "main": "index.js",
   "author": "Ryan Block",
   "files": [
     "index.js",
+    "prettier.config.js",
+    "prettier.js",
     "README.md"
   ],
   "license": "ISC",
   "readme": "README.md",
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
     "eslint": "^6.7.2",
-    "prettier": "^1.19.1",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
+    "prettier": "^1.19.1",
     "ts-jest": "^25.2.1"
   },
   "devDependencies": {
