@@ -3,12 +3,27 @@
   "version": "1.0.0",
   "description": "Ryan Block's Shared EsLint Configuration",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ryan Block",
+  "files": ["index.js", "README.md"],
   "license": "ISC",
-  "peerDependencies": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "readme": "README.md",
+  "peerDependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.19.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.1"
+  }
 }
