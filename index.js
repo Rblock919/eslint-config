@@ -1,4 +1,4 @@
-var eslintConfig = require('./eslintrc.config');
+var eslintConfig = require('./eslint.config');
 var prettierConfig = require('./prettier.config');
 
 module.exports = {

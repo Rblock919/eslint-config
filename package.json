@@ -1,13 +1,13 @@
 {
   "name": "@rblock919/eslint-config",
   "version": "1.1.5",
-  "description": "Ryan Block's Shared EsLint Configuration",
+  "description": "Ryan Block's Shared ESLint Configuration",
   "main": "index.js",
   "author": "Ryan Block",
   "files": [
     "index.js",
     "prettier.config.js",
-    "prettier.js",
+    "eslint.config.js",
     "README.md"
   ],
   "license": "ISC",
