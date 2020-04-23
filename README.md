@@ -26,7 +26,7 @@ module.exports = prettierConfig;
 
 ## Eslint-Configuration
 
-```json
+```javascript
 {
   parser: '@typescript-eslint/parser',
   parserOptions: {
