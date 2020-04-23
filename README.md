@@ -1,8 +1,15 @@
 ## Usage
 
+### Installation
+
+`npm install -D @rblock919/eslint-config`
+
+#### [npmjs page](https://www.npmjs.com/package/@rblock919/eslint-config)
+
 ### Eslint Usage
 
 #### **`.eslintrc.js`**
+
 ```javascript
 const { eslintConfig } = require('@rblock919/eslint-config');
 
@@ -20,6 +27,7 @@ module.exports = {
 ### Prettier Usage
 
 #### **`prettier.config.js`**
+
 ```javascript
 const { prettierConfig } = require('@rblock919/eslint-config');
 
